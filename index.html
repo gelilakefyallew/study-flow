@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Flow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="side-bar">
+        <h2>Study <span>Flow</span></h2>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="">Progress</a></li>
+            <li>
+              <a href="" class="navLink"
+                >My Tasks
+                <span class="dot hidden"></span>
+              </a>
+            </li>
+            <li><a href="">Settings</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <div class="taskAdder" id="home">
+        <h1>Good <span> Evening </span>,</h1>
+        <h1>Ready to make today count?</h1>
+        <div class="adding">
+          <input
+            type="text"
+            name="tasks"
+            id="tasks"
+            placeholder="write your tasks here..."
+            class="input"
+          />
+          <button class="btn1">Add</button>
+        </div>
+      </div>
+    </div>
+    <div id="progress">
+      <div class="completed">
+        <p>
+          <span class="numberOfTasksCompleted">0 </span>tasks completed today!
+        </p>
+      </div>
+      <div class="streak">
+        <i class="fa-solid fa-star"></i>
+        <span class="numberOfStreaks">0 streaks</span>
+      </div>
+      <div class="completionRate">
+        <span class="rate">0%</span>
+      </div>
+      <div class="chart-card">
+    <h3>Weekly Activity</h3>
+    <div class="bar-chart">
+      <div class="bar-group">
+        <div class="bar-track"><div class="bar-fill" style="height: 40%;"></div></div>
+        <span class="day-label">Mon</span>
+      </div>
+      <div class="bar-group">
+        <div class="bar-track"><div class="bar-fill" style="height: 75%;"></div></div>
+        <span class="day-label">Tue</span>
+      </div>
+      <div class="bar-group">
+        <div class="bar-track"><div class="bar-fill" style="height: 20%;"></div></div>
+        <span class="day-label">Wed</span>
+      </div>
+      <div class="bar-group">
+        <div class="bar-track"><div class="bar-fill" style="height: 90%;"></div></div>
+        <span class="day-label">Thu</span>
+      </div>
+      <div class="bar-group">
+        <div class="bar-track"><div class="bar-fill" style="height: 60%;"></div></div>
+        <span class="day-label">Fri</span>
+      </div>
+      <div class="bar-group">
+        <div class="bar-track"><div class="bar-fill" style="height: 30%;"></div></div>
+        <span class="day-label">Sat</span>
+      </div>
+      <div class="bar-group">
+        <div class="bar-track"><div class="bar-fill" style="height: 50%;"></div></div>
+        <span class="day-label">Sun</span>
+      </div>
+    </div>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
